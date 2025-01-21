@@ -40,22 +40,23 @@
             transform: scale(1.1);
         }
         .menu {
-            margin: 20px;
+            margin: 20px auto; /* Căn giữa phần thực đơn */
             padding: 15px;
             border: 3px solid #ff8566;
             border-radius: 15px;
             background-color: #ffffff;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             animation: slideIn 1.5s;
+            max-width: 900px; /* Giới hạn chiều rộng của phần thực đơn */
         }
         .menu h2 {
-            text-align: center;
+            text-align: center; /* Căn giữa tiêu đề */
             color: #ff6f61;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin: 20px auto; /* Căn giữa bảng */
             animation: fadeIn 1.5s;
         }
         table, th, td {
